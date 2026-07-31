@@ -5,7 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /kiss_matcher_sam1
+        - /kiss_matcher_sam1/Global map1
         - /kiss_matcher_sam1/Global map1/Autocompute Value Bounds1
       Splitter Ratio: 0.6294117569923401
     Tree Height: 707
@@ -26,7 +26,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: Current scan
+    SyncSource: ""
 Visualization Manager:
   Class: ""
   Displays:
@@ -239,7 +239,7 @@ Visualization Manager:
           Autocompute Value Bounds:
             Max Value: 26
             Min Value: -5.172699928283691
-            Value: false
+            Value: true
           Axis: Z
           Channel Name: intensity
           Class: rviz_default_plugins/PointCloud2
@@ -408,7 +408,7 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: AxisColor
       Decay Time: 100
-      Enabled: false
+      Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Max Intensity: 1.098297119140625
@@ -428,11 +428,11 @@ Visualization Manager:
         Value: /wamv_rise/norbit_mbes/cloud
       Use Fixed Frame: true
       Use rainbow: true
-      Value: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 0; 0; 0
-    Fixed Frame: wamv_rise/odom
+    Fixed Frame: wamv_rise/map
     Frame Rate: 30
   Name: root
   Tools:
